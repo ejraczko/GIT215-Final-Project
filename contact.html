@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Edelweiss Resort | Contact</title>
+  <meta name="author" content="Elizabeth Raczkowski">
+  <meta name="description" content="The contact page for Edelweiss Resort.">
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="cssobfuscated.css">
+</head>
+
+<body>
+  <header>
+    <section id="nav-bar">
+        <h1><a href="index.html">Edelweiss Resort</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <img src="images/swiss-valley.jpg" alt="an image of the swiss valley">
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <section id="contacts">
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <p>Required fields marked with a *</p>
+
+        <img src="images/swiss-sunset.jpg" alt="an image of the sunset in the swiss alps">
+    </section>
+
+    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+        <label for="full-name">Full Name<span class="required">*</span></label>
+        <input type="text" name="full-name" id="full-name" required>
+        <label for="email-address">Email Address<span class="required">*</span></label>
+        <input type="email" name="email-address" id="email-address" required>
+        <label for="phone-number">Phone Number<span class="required">*</span></label>
+        <input type="tel" name="phone-number" id="phone-number" required>
+        <fieldset>
+            <legend>Preferred Method of Contact</legend>
+            <input type="radio" name="contact-pref" id="pref-email" checked>
+            <label for="pref-email">Email</label>
+            <input type="radio" name="contact-pref" id="pref-phone">
+            <label for="pref-phone">Phone</label>
+        </fieldset>
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments"></textarea>
+
+        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+    </form>
+  </main>
+
+  <footer>
+    <p>Copyright &copy;2025 - Edelweiss Resort</p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+</body>
+
+</html>
